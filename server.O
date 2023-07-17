@@ -3,3 +3,4 @@ library(markdown)
 library(shinydashboard)
 library(DynTxRegime)
 library(DT
+library(rgenoud)
