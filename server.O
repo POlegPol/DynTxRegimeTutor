@@ -4,3 +4,4 @@ library(shinydashboard)
 library(DynTxRegime)
 library(DT
 library(rgenoud)
+library(rpart)
