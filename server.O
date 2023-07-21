@@ -7,3 +7,4 @@ library(rgenoud)
 library(rpart)
 # server.R
 # Limit Upload Data Size to 5Mb
+options(shiny.maxRequestSize=5*1024^2)
