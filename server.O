@@ -10,3 +10,5 @@ library(rpart)
 options(shiny.maxRequestSize=5*1024^2)
 shinyServer(
 	function(input, output, session) {
+
+	  ##------------------------ Load html files of case studies for methods --------------------------#
