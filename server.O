@@ -12,3 +12,5 @@ shinyServer(
 	function(input, output, session) {
 
 	  ##------------------------ Load html files of case studies for methods --------------------------#
+	  
+	  #-----------------------
