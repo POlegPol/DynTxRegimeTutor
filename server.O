@@ -14,3 +14,4 @@ shinyServer(
 	  ##------------------------ Load html files of case studies for methods --------------------------#
 	  
 	  #-----------------------
+	  # Include html files 
