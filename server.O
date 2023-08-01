@@ -19,3 +19,4 @@ shinyServer(
 	  #   the corresponding markdown files in ./www folder
 	  #     Dataset 
 	  #     Outcome Regression : Case Study
+	  #     AIPWE : Case Study
