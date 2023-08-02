@@ -20,3 +20,4 @@ shinyServer(
 	  #     Dataset 
 	  #     Outcome Regression : Case Study
 	  #     AIPWE : Case Study
+	  #   and output as uioutput in ui.R
