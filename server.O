@@ -21,3 +21,4 @@ shinyServer(
 	  #     Outcome Regression : Case Study
 	  #     AIPWE : Case Study
 	  #   and output as uioutput in ui.R
+	  #   this step is necssary for those files, 
