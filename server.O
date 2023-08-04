@@ -22,3 +22,4 @@ shinyServer(
 	  #     AIPWE : Case Study
 	  #   and output as uioutput in ui.R
 	  #   this step is necssary for those files, 
+	  #   as they include some code chuncks need to be run beforehand
