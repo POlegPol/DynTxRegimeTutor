@@ -25,3 +25,4 @@ shinyServer(
 	  #   as they include some code chuncks need to be run beforehand
 	  #-----------------------
 	  output$dataone <- renderUI({
+	    withMathJax(
