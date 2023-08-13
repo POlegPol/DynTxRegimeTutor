@@ -29,3 +29,4 @@ shinyServer(
 	      includeHTML("./www/outcome_regress_case.html"))
 	    })
 	 	output$ac <- renderUI({
+	    withMathJax(
