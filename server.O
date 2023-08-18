@@ -33,3 +33,4 @@ shinyServer(
 	    includeHTML("./www/class_case.html"))
 	    })
 	 	output$ac <- renderUI({
+	 	  withMathJax(
