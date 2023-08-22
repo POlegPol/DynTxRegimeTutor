@@ -35,3 +35,7 @@ shinyServer(
 	 	output$ac <- renderUI({
 	 	  withMathJax(
 	    includeHTML("./www/class_case.html"))
+	    })
+
+
+	  ##----------------- Load csv file: input data  --------------------------#
