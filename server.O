@@ -45,3 +45,4 @@ shinyServer(
 	  #   allow user to update their own small dataset,
 	  #   limit upload data size to 5Mb
 	  #-----------------------
+	  data <- callModule(csvFile, "datafile",
