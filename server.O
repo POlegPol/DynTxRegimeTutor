@@ -46,3 +46,4 @@ shinyServer(
 	  #   limit upload data size to 5Mb
 	  #-----------------------
 	  data <- callModule(csvFile, "datafile",
+	          stringsAsFactors = FALSE)
