@@ -47,3 +47,5 @@ shinyServer(
 	  #-----------------------
 	  data <- callModule(csvFile, "datafile",
 	          stringsAsFactors = FALSE)
+	  
+	  ##------------------------ User data upload  --------------------------#
