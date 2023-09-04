@@ -51,3 +51,4 @@ shinyServer(
 	  ##------------------------ User data upload  --------------------------#
 	  
 	  #-----------------
+	  # Datatable Output
