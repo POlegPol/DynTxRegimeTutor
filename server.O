@@ -54,3 +54,4 @@ shinyServer(
 	  # Datatable Output
 	  #   generate renderDataTable for the dataset uploaded by the user
 	  #-----------------
+	  output$table <- renderDataTable({
