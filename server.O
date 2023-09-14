@@ -59,3 +59,4 @@ shinyServer(
 	  })
 	  
 	  #-----------------------------
+	  # Scatter plots with Go button
