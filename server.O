@@ -60,3 +60,4 @@ shinyServer(
 	  
 	  #-----------------------------
 	  # Scatter plots with Go button
+	  #   let user generate a scatter plot for the data uploaded
