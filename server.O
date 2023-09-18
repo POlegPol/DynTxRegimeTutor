@@ -63,3 +63,4 @@ shinyServer(
 	  #   let user generate a scatter plot for the data uploaded
 	  #-----------------------------
 	  observeEvent(input$getplot, {
+	    output$plot0 <- renderPlot({
