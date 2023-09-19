@@ -64,3 +64,4 @@ shinyServer(
 	  #-----------------------------
 	  observeEvent(input$getplot, {
 	    output$plot0 <- renderPlot({
+	      if (is.null(data())) return(NULL)
