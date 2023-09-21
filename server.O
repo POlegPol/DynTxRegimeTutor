@@ -66,3 +66,4 @@ shinyServer(
 	    output$plot0 <- renderPlot({
 	      if (is.null(data())) return(NULL)
 	      df <-data()
+	      pairs(df)
