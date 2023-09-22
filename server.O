@@ -67,3 +67,4 @@ shinyServer(
 	      if (is.null(data())) return(NULL)
 	      df <-data()
 	      pairs(df)
+	    })
