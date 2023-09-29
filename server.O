@@ -76,3 +76,4 @@ shinyServer(
 	  
 	  ##--------------------- outcome regression ----------------------#
 	  #---------------------
+	  # Specify treatment
