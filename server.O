@@ -78,3 +78,4 @@ shinyServer(
 	  #---------------------
 	  # Specify treatment
 	  #   create a box for drop list for user to select the treatment variable
+	  #---------------------
