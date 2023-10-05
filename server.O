@@ -82,3 +82,5 @@ shinyServer(
 	  output$varTrtR <- renderUI({
 	    if (is.null(data())) return(NULL)
 	    df <-data()
+	    
+	    items=names(df)
