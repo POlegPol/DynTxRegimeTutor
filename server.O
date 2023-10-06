@@ -84,3 +84,4 @@ shinyServer(
 	    df <-data()
 	    
 	    items=names(df)
+	    names(items)=items
