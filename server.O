@@ -85,3 +85,4 @@ shinyServer(
 	    
 	    items=names(df)
 	    names(items)=items
+	    selectInput("varTrtR", "Treatment:",items)
