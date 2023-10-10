@@ -87,3 +87,5 @@ shinyServer(
 	    names(items)=items
 	    selectInput("varTrtR", "Treatment:",items)
 	  })
+	  
+	  #-----------------
