@@ -92,3 +92,4 @@ shinyServer(
 	  # Specify response
 	  #   create a box for drop list for user to select the response variable
 	  #-----------------
+	  output$varResponseR <- renderUI({
