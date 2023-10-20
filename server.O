@@ -98,3 +98,4 @@ shinyServer(
 	    
 	    items=names(df)
 	    names(items)=items
+	    selectInput("varResponseR", "Response:",items)
