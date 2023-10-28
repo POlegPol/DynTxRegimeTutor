@@ -107,3 +107,4 @@ shinyServer(
 	  #   variables to be included in the moMain modeling
 	  #-------------
 	  output$varMainR <- renderUI({
+	    if (is.null(data())) return(NULL)
