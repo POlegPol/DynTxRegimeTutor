@@ -108,3 +108,4 @@ shinyServer(
 	  #-------------
 	  output$varMainR <- renderUI({
 	    if (is.null(data())) return(NULL)
+	    df <-data()
