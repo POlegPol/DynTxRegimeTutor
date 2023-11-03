@@ -112,3 +112,4 @@ shinyServer(
 	    
 	    varName <- names(df)
 	    varName <- varName[!(varName %in% c(input$varTrtR, input$varResponseR)) ]
+	    checkboxGroupInput("varMainR", 
