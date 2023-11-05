@@ -114,3 +114,4 @@ shinyServer(
 	    varName <- varName[!(varName %in% c(input$varTrtR, input$varResponseR)) ]
 	    checkboxGroupInput("varMainR", 
 	                       "Choose variables to be included in the main effect model", 
+	                       varName)
