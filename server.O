@@ -115,3 +115,4 @@ shinyServer(
 	    checkboxGroupInput("varMainR", 
 	                       "Choose variables to be included in the main effect model", 
 	                       varName)
+	  })
