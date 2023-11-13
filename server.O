@@ -123,3 +123,4 @@ shinyServer(
 	  #   variables to be included in the moCont modeling
 	  #-------------
 	  output$varContR <- renderUI({
+	    if (is.null(data())) return(NULL)
