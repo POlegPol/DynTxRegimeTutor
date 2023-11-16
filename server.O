@@ -127,3 +127,4 @@ shinyServer(
 	    df <-data()
 	    
 	    varName <- names(df)
+	    varName <- varName[!(varName %in% c(input$varTrtR, input$varResponseR)) ]
