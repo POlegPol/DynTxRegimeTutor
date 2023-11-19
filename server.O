@@ -130,3 +130,4 @@ shinyServer(
 	    varName <- varName[!(varName %in% c(input$varTrtR, input$varResponseR)) ]
 	    checkboxGroupInput("varContR", 
 	                       "Choose variables to be included in the contrast model", 
+	                       varName)
