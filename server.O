@@ -132,3 +132,5 @@ shinyServer(
 	                       "Choose variables to be included in the contrast model", 
 	                       varName)
 	  })
+	  
+	  #-------------
