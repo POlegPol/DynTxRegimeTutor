@@ -134,3 +134,4 @@ shinyServer(
 	  })
 	  
 	  #-------------
+	  # Fit the model 
