@@ -138,3 +138,4 @@ shinyServer(
 	  #   fit the model specified by user
 	  #-------------  
 	  observeEvent(input$getmodelR, {
+	  # observe({
