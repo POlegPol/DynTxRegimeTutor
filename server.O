@@ -139,3 +139,4 @@ shinyServer(
 	  #-------------  
 	  observeEvent(input$getmodelR, {
 	  # observe({
+	    # check if data if uploaded
