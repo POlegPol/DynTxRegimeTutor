@@ -141,3 +141,4 @@ shinyServer(
 	  # observe({
 	    # check if data if uploaded
 	    if (is.null(data())) return(NULL)
+	    df <-data()
