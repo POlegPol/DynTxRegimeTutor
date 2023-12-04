@@ -144,3 +144,4 @@ shinyServer(
 	    df <-data()
 
 	    # check if all the variables input are ready 
+	    if(is.null(input$varResponseR)) return(NULL)
